@@ -1,0 +1,11 @@
+database:
+  host: "18.162.78.117"
+  port: "5432"
+  name: "aws-billing"
+  user: "fibo"
+  password: "fibo123"
+  timezone: "Asia/Ulaanbaatar"
+
+server:
+  GIN_MODE: "debug"
+  PORT: "8081"
